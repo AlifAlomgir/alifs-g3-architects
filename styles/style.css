@@ -8,12 +8,12 @@ body {
 
     width: 180px;
     height: 64px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     background: #FF900E;
     border-radius: 8px;
     border: none;
     font-weight: 600;
-font-size: 20px;
+    font-size: 20px;
 }
 
 /* ------------------
@@ -63,7 +63,7 @@ nav li {
 .header-content {
 
     text-align: center;
-    margin: 120px 430px 50px;
+    padding: 120px 240px 50px;
 }
 
 .header-title {
@@ -80,14 +80,74 @@ nav li {
     color: #727272;
 }
 
-.banner{
+.banner {
 
     text-align: center;
+
+}
+
+.banner img {
+
+    height: 600px;
+
+}
+
+/*------------------------------------------
+--------- Feature list styles---------------- */
+
+.feature-list {
+
+
+    margin: 130px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.feature-list-details {
+
+    /* width: 30%; */
     
 }
 
-.banner img{
+.feature-list-img {
+    /* width: 30%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-right: 60px;
+}
 
-    height: 600px;
-    
+.feature-list-img>img {
+
+    width: 342px;
+    height: 342px;
+}
+
+.feature-list-title {
+
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.feature-list-title .of-our {
+
+    color: #131313;
+}
+
+.feature-list-title .orange-text {
+
+    color: #FF900E;
+}
+
+.feature-list-description {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
 }
