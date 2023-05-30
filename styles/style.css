@@ -4,6 +4,18 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.primary-btn {
+
+    width: 180px;
+    height: 64px;
+    color:#FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+font-size: 20px;
+}
+
 /* ------------------
 ----Header----------- */
 
@@ -13,7 +25,9 @@ header {
 
     height: 1320px;
     background-color: rgba(255, 144, 14, 0.1);
-    padding: 50px 240px;
+    padding: 25px 240px;
+
+
 }
 
 /* nav bar */
@@ -44,4 +58,36 @@ nav li {
     font-weight: 500;
     font-size: 18px;
     color: #424242;
+}
+
+.header-content {
+
+    text-align: center;
+    margin: 120px 430px 50px;
+}
+
+.header-title {
+
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.header-description {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.banner{
+
+    text-align: center;
+    
+}
+
+.banner img{
+
+    height: 600px;
+    
 }
