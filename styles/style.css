@@ -195,7 +195,7 @@ nav li {
     padding: 30px;
     /* height: 171px; */
     margin-bottom: 20px;
-    margin-right: 60px;
+    margin-right: 150px;
 
 
 }
@@ -224,6 +224,10 @@ nav li {
     font-size: 65px;
     padding: 50px;
     text-align: center;
+    position: relative;
+    left: 70px;
+    bottom: 220px;
+    
 }
 
 .feature-btn-container {
@@ -280,6 +284,12 @@ nav li {
     border-radius: 8px;
     padding: 45px 35px 60px;
     text-align: center;
+}
+
+.fact-item:hover{
+
+    transform: scale(1.5);
+    background: #f87902;
 }
 
 .fact-item-count {
